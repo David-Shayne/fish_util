@@ -5,4 +5,5 @@ The SaaS web application for commercial fisheries.
 - Weather monitoring and forecasting
 - Financial overview and tracking
 - Catch logbooks and geo-tracking
+- Smart analytics and further catch data
 - More to come!
