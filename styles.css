@@ -262,3 +262,9 @@ h4.testimonial-author {
 		font-style: italic;
 	}
 }
+
+@media all and (max-width: 785px) {
+	.hero-section > img {
+		display: none;
+	}
+}
