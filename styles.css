@@ -176,7 +176,6 @@ button {
 		justify-content: center;
 		width: 80%;
 		max-width: 800px;
-		/* align-items: center; */
 		gap: 16px;
 	}
 }
@@ -264,6 +263,7 @@ h4.testimonial-author {
 	}
 }
 
+/* Media Queries for smaller devices */
 @media all and (max-width: 785px) {
 	.hero-section > img {
 		display: none;
