@@ -220,6 +220,7 @@ h4.testimonial-author {
 	align-items: center;
 	width: 70%;
 	max-width: 750px;
+	min-width: 300px;
 	margin: 0 auto;
 	gap: 16px;
 	flex-wrap: wrap;
@@ -266,5 +267,20 @@ h4.testimonial-author {
 @media all and (max-width: 785px) {
 	.hero-section > img {
 		display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.cta-card {
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 380px) {
+	.header > .container {
+		h1 {
+			font-size: 350%;
+		}
 	}
 }
